@@ -34,6 +34,12 @@ extractor = DocumentInfoExtractor(use_ner=True)
 result = extractor.extract_from_file("path/to/document.pdf")
 print(result)
 ```
+
+
+### Note on Entity Extraction
+The current implementation uses spaCy’s pre-trained NER model (en_core_web_sm) to extract entities such as name, issued_date, and expiry_date. However, spaCy’s default model may not reliably detect all domain-specific entities in insurance documents, such as policy_number, plan_name, sum_assured, room_rent_limit, or waiting_period.
+
+To improve accuracy for these fields, custom training of spaCy’s NER model is recommended. This involves annotating a dataset of sample documents with the relevant entities and training the model to recognize them in context.
 ### Testing
 Run the test script to see the extractor in action:
 ```bash
