@@ -1,0 +1,11 @@
+﻿Insurance Policy Document 
+------------------------------------------ 
+Name: Rahul Sharma 
+Email: rahul.sharma@email.com 
+Phone: +91-9876543210 
+Policy Number: ABC12345 
+Plan Name: Health Secure Plus 
+Sum Assured: ■5,00,000 
+Room Rent Limit: ■5000/day 
+Waiting Period: 2 years for pre-existing diseases Issued Date: 01-Aug-2023 
+Expiry Date: 31-Jul-2024
